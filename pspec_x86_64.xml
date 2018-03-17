@@ -1,0 +1,95 @@
+<PISI>
+    <Source>
+        <Name>darkradiant</Name>
+        <Packager>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>games.action</PartOf>
+        <Summary xml:lang="en">DarkRadiant is the map editor for The Dark Mod and other idTech4/Doom3-based games</Summary>
+        <Description xml:lang="en">DarkRadiant is a level (map) editor for the The Dark Mod, an open-source Doom 3 modification
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>darkradiant</Name>
+        <Summary xml:lang="en">DarkRadiant is the map editor for The Dark Mod and other idTech4/Doom3-based games</Summary>
+        <Description xml:lang="en">DarkRadiant is a level (map) editor for the The Dark Mod, an open-source Doom 3 modification
+</Description>
+        <PartOf>games.action</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libdds-2.5.0.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libdds.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libmath-2.5.0.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libmath.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libpicomodel-2.5.0.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libpicomodel.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libscenegraph-2.5.0.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libscenegraph.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libwxutil-2.5.0.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libwxutil.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libxmlutil-2.5.0.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/libxmlutil.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/archivezip.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/commandsystem.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/eclassmgr.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/entity.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/entitylist.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/eventmgr.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/filetypes.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/filters.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/fonts.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/image.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/mapdoom3.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/md5model.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/model.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/particles.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/scenegraph.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/script.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/shaders.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/skins.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/sound.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/uimanager.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/undo.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/vfspk3.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/modules/xmlregistry.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/plugins/dm_conversation.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/plugins/dm_difficulty.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/plugins/dm_editing.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/plugins/dm_gui.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/plugins/dm_objectives.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/plugins/dm_stimresponse.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/plugins/eclasstree.so</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/brushtest.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/ase_export.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/ase_export_blend.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/check_for_invalid_visportals.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/convert_to_ase_and_replace.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/example.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/export_obj.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/patchsplitter.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/select_all_models_of_type.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/shift_textures_randomly.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/shift_textures_upwards_randomly.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/commands/test_targets.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/dialogtest.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/init.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/patchtest.py</Path>
+            <Path fileType="library">/usr/lib64/darkradiant/scripts/test.py</Path>
+            <Path fileType="data">/usr/share/applications/darkradiant.desktop</Path>
+            <Path fileType="data">/usr/share/darkradiant</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-04</Date>
+            <Version>2.5.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+    </History>
+</PISI>

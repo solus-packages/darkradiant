@@ -1,0 +1,26 @@
+name       : darkradiant
+version    : 2.5.0
+release    : 1
+source     :
+    - https://github.com/codereader/DarkRadiant/archive/2.5.0.tar.gz : 90249f8a0dc5c8620a01ac3b339975d54a855573f30cf7e552777ad1e887232f
+license    : GPL-2.0
+component  : games.action
+summary    : DarkRadiant is the map editor for The Dark Mod and other idTech4/Doom3-based games
+description: |
+    DarkRadiant is a level (map) editor for the The Dark Mod, an open-source Doom 3 modification
+builddeps  :
+    - pkgconfig(freealut)
+    - pkgconfig(ftgl)
+    - pkgconfig(glew)
+    - pkgconfig(libturbojpeg)
+    - pkgconfig(vorbis)
+    - pkgconfig(libxml-2.0)
+    - pkgconfig(sigc++-2.0)
+    - wxwidgets-devel
+setup      : |
+    %autogen --enable-darkmod-plugins
+build      : |
+    %make
+install    : |
+    %make_install
+
